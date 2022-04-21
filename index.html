@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Foster A Pet</title>
+   <link href="style.css" rel="stylesheet"  type="text/css"
+  </head>
+  <body>
+    <header>
+      <h1>Sign Up to Foster a Pet</h1>
+      <table>
+        <tr>
+          <th> Available Pets </th>
+        </tr>
+        <tr>
+          <th> Name </th>
+          <th> Age </th>
+          <th> Breed </th>
+          <th> Picture </th>
+        </tr>
+        <tr>
+          <td> Benny </td>
+          <td> 2 </td>
+          <td> Golden Retriever </td>
+          <td> <img src="https://scx1.b-cdn.net/csz/news/800a/2013/2-goldenretrie.jpg" alt="Benny" height="50" width="auto"> </td>
+        </tr>
+        <tr>
+          <td> Felix </td>
+          <td> 5 </td>
+          <td> Orange Tabby </td>
+          <td> <img src="https://cdn.powerofpositivity.com/wp-content/uploads/2020/11/Science-Explains-Why-Orange-Cats-Are-The-Most-Special-1536x864.jpg" alt = "Felix" height="50" width="auto"></td>
+        </tr>
+        <tr>
+          <td> Cooper </td>
+          <td> 8 </td>
+          <td> German Shepard </td>
+          <td> <img src="https://www.mittelwest.com/wp-content/uploads/2018/08/mittelwest-male-german-shepherd-for-sale-vabo-vom-mittelwest.jpg" alt="Cooper" height="50" width="auto"></td>
+        </tr>
+        <tr>
+          <td> Anna </td>
+          <td> 3 </td>
+          <td> Long-Haired Dachshund </td>
+          <td><img src="https://www.akc.org/wp-content/uploads/2017/11/Longhaired-Dachshund-standing-outdoors.jpg" alt="Anna" height="50" width="auto"></td>
+        </tr>
+      </table>
+      <img src="assets/dog.png" alt="Cute Dog Looking Over Form" width="40%">
+      <hr>
+    </header>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Jane Doe">
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob">
+      <label for="email"> Email: </label>
+      <input typr="email" id="email" name="email"placeholder="example@domain.com">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <label for="np">Number of Pets:</label>
+      <input type="number" id="np" name="np" min="0">
+      <h4>Have you fotered before?</h4>
+      <label for="yes">
+        <input type="radio" id="yes" name="fostered">Yes</input>
+      </label>
+      <label for="no"> 
+        <input type="radio" id="no" name="fostered">No</input>
+      </label>
+      <h4> Which of these apply to your home? <h4>
+      <label for="apt">Apartnemt</label>
+      <input type="checkbox" id="apt" name="apt">
+      <label for="kids">Children</label>
+      <input type="checkbox" id="kids" name="kids">
+      <label for="yard">Yard</label>
+     <input type="checkbox" id="yard" name="yard">
+     <input type="submit" value="Sign Up">
+    </form>
+
+  </body>
+</html>
